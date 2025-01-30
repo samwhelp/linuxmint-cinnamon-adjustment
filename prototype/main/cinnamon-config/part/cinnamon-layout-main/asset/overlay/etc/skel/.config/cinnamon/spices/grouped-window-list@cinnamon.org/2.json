@@ -358,8 +358,10 @@
         ],
         "value": [
             "nemo.desktop",
+            "org.x.editor.desktop",
             "firefox.desktop",
-            "org.gnome.Terminal.desktop"
+            "org.gnome.Terminal.desktop",
+            "cinnamon-settings.desktop"
         ]
     },
     "__md5__": "b7d0a7558cf87c22c50195c9d408485f"
