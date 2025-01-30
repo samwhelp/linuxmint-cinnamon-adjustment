@@ -209,6 +209,9 @@ cinnamon_workspace_main_config_start () {
 	util_error_echo "##"
 	util_error_echo
 
+
+
+
 	cinnamon_workspace_main_config_for_workspace_preference
 
 	cinnamon_workspace_main_config_for_workspace_number
