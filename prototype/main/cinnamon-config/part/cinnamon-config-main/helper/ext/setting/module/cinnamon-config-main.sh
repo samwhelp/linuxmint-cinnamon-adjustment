@@ -204,13 +204,14 @@ cinnamon_config_main_config_start () {
 	util_error_echo "##"
 	util_error_echo
 
+
+
+
 	cinnamon_config_main_config_for_wm
 
 	cinnamon_config_main_config_for_keyboard
 
 	cinnamon_config_main_config_for_sound
-
-	cinnamon_config_main_config_for_layout
 
 
 
@@ -379,67 +380,6 @@ cinnamon_config_main_config_for_sound () {
 	gsettings set org.cinnamon.desktop.sound event-sounds false
 
 
-
-
-	util_error_echo
-
-
-	return 0
-
-}
-
-
-cinnamon_config_main_config_for_layout () {
-
-
-
-	##
-	## /usr/share/glib-2.0/schemas/org.cinnamon.gschema.xml
-	##
-
-
-	##
-	## gsettings list-recursively | grep org.cinnamon
-	## gsettings list-recursively org.cinnamon
-	## dconf dump /org/cinnamon/
-	## dconf dump / | grep '\[org/cinnamon\]' -A 5
-	##
-
-	util_error_echo
-	util_error_echo "##"
-	util_error_echo "## ## cinnamon_config_main_config_for_layout"
-	util_error_echo "##"
-
-
-	#util_error_echo
-	#util_error_echo gsettings set org.cinnamon enabled-applets "['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:1:systray@cinnamon.org:3', 'panel1:right:2:xapp-status@cinnamon.org:4', 'panel1:right:3:notifications@cinnamon.org:5', 'panel1:right:4:printers@cinnamon.org:6', 'panel1:right:5:removable-drives@cinnamon.org:7', 'panel1:right:6:keyboard@cinnamon.org:8', 'panel1:right:7:favorites@cinnamon.org:9', 'panel1:right:8:network@cinnamon.org:10', 'panel1:right:9:sound@cinnamon.org:11', 'panel1:right:10:power@cinnamon.org:12', 'panel1:center:0:calendar@cinnamon.org:13', 'panel1:right:0:workspace-switcher@cinnamon.org:14']"
-	#gsettings set org.cinnamon enabled-applets "['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:1:systray@cinnamon.org:3', 'panel1:right:2:xapp-status@cinnamon.org:4', 'panel1:right:3:notifications@cinnamon.org:5', 'panel1:right:4:printers@cinnamon.org:6', 'panel1:right:5:removable-drives@cinnamon.org:7', 'panel1:right:6:keyboard@cinnamon.org:8', 'panel1:right:7:favorites@cinnamon.org:9', 'panel1:right:8:network@cinnamon.org:10', 'panel1:right:9:sound@cinnamon.org:11', 'panel1:right:10:power@cinnamon.org:12', 'panel1:center:0:calendar@cinnamon.org:13', 'panel1:right:0:workspace-switcher@cinnamon.org:14']"
-
-
-	util_error_echo
-	util_error_echo gsettings set org.cinnamon enabled-applets "['panel1:center:0:menu@cinnamon.org:0', 'panel1:left:1:separator@cinnamon.org:1', 'panel1:center:1:grouped-window-list@cinnamon.org:2', 'panel1:right:0:systray@cinnamon.org:3', 'panel1:right:1:xapp-status@cinnamon.org:4', 'panel1:right:2:notifications@cinnamon.org:5', 'panel1:right:3:printers@cinnamon.org:6', 'panel1:right:4:removable-drives@cinnamon.org:7', 'panel1:right:5:keyboard@cinnamon.org:8', 'panel1:right:6:favorites@cinnamon.org:9', 'panel1:right:7:network@cinnamon.org:10', 'panel1:right:8:sound@cinnamon.org:11', 'panel1:right:9:power@cinnamon.org:12', 'panel1:right:10:calendar@cinnamon.org:13', 'panel1:right:11:cornerbar@cinnamon.org:14']"
-	gsettings set org.cinnamon enabled-applets "['panel1:center:0:menu@cinnamon.org:0', 'panel1:left:1:separator@cinnamon.org:1', 'panel1:center:1:grouped-window-list@cinnamon.org:2', 'panel1:right:0:systray@cinnamon.org:3', 'panel1:right:1:xapp-status@cinnamon.org:4', 'panel1:right:2:notifications@cinnamon.org:5', 'panel1:right:3:printers@cinnamon.org:6', 'panel1:right:4:removable-drives@cinnamon.org:7', 'panel1:right:5:keyboard@cinnamon.org:8', 'panel1:right:6:favorites@cinnamon.org:9', 'panel1:right:7:network@cinnamon.org:10', 'panel1:right:8:sound@cinnamon.org:11', 'panel1:right:9:power@cinnamon.org:12', 'panel1:right:10:calendar@cinnamon.org:13', 'panel1:right:11:cornerbar@cinnamon.org:14']"
-
-
-
-	util_error_echo
-	util_error_echo gsettings set org.cinnamon next-applet-id 15
-	gsettings set org.cinnamon next-applet-id 15
-
-
-	util_error_echo
-	util_error_echo gsettings set org.cinnamon panel-edit-mode false
-	gsettings set org.cinnamon panel-edit-mode false
-
-
-	#util_error_echo
-	#util_error_echo gsettings set org.cinnamon panels-enabled "['1:0:top']"
-	#gsettings set org.cinnamon panels-enabled "['1:0:top']"
-
-
-	util_error_echo
-	util_error_echo gsettings set org.cinnamon panels-enabled "['1:0:bottom']"
-	gsettings set org.cinnamon panels-enabled "['1:0:bottom']"
 
 
 	util_error_echo
