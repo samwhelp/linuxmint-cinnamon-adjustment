@@ -1,0 +1,23 @@
+
+
+##
+## # Cinnamon
+##
+
+
+
+
+##
+## ## Package / cinnamon-desktop
+##
+
+cinnamon-desktop
+
+
+
+
+##
+## ## Package / dconf
+##
+
+dconf-cli
