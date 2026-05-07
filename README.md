@@ -24,6 +24,8 @@
 | Script |
 | ------ |
 | [LinuxMint Cinnamon](https://github.com/samwhelp/linuxmint-cinnamon-adjustment/tree/main/prototype/main/) |
+| [Tool Config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/main/tool-config/part) |
+| [linuxmint-cinnamon-adjustment](https://github.com/samwhelp/linuxmint-cinnamon-adjustment/tree/main/demo/scripts/main/cinnamon-adjustment) |
 
 
 | Style Management |
@@ -38,10 +40,13 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [LinuxMint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
-| [Archlinux Adjustment](https://samwhelp.github.io/archlinux-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-adjustment) |
-| [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
-| [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
+| [Cinnamon Adjustment](https://samwhelp.github.io/cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/cinnamon-adjustment) |
+| [Lmde Cinnamon Adjustment](https://samwhelp.github.io/lmde-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/lmde-cinnamon-adjustment) |
+| [Ubuntu Cinnamon Adjustment](https://samwhelp.github.io/ubuntu-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-cinnamon-adjustment) |
+| [Debian Cinnamon Adjustment](https://samwhelp.github.io/debian-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/debian-cinnamon-adjustment) |
+| [Fedora Cinnamon Adjustment](https://samwhelp.github.io/fedora-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-cinnamon-adjustment) |
+| [Archlinux Cinnamon Adjustment](https://samwhelp.github.io/archlinux-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-cinnamon-adjustment) |
+| [Voidlinux Cinnamon Adjustment](https://samwhelp.github.io/archlinux-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/voidlinux-cinnamon-adjustment) |
 
 
 
